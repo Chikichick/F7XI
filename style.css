@@ -232,7 +232,7 @@
 }
 .messagesender_option:hover{
     cursor:pointer;
-    background-color: transparent;
+    background-color:transparent;
     border-radius:20px;
     border:1px solid grey;
     border-top:-5px;
@@ -302,7 +302,7 @@
     margin-left:10px;
 }
 .post_option:hover{
-    background-color: transparent;
+    background-color:transparent;
     border-radius:20px;
     border:1px solid grey;
 }
@@ -319,8 +319,8 @@
     background-color:black;
 }
 .post_option:hover{
-    color:skyblue;
-
+color:skyblue;
+}
 @media (max-width:1440px), (min-width:414px){
     .header_input{
         margin-top:1.5%;
