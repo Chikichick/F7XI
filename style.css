@@ -232,8 +232,12 @@
 }
 .messagesender_option:hover{
     cursor:pointer;
-    background-color:grey;
+    background-color: transparent;
     border-radius:20px;
+    border:1px solid grey;
+    border-top:-5px;
+    border-bottom:-5px;
+    transform:scale(1);
 }
 .post{
    
@@ -298,8 +302,9 @@
     margin-left:10px;
 }
 .post_option:hover{
-    background-color:grey;
-    border-radius:10px;
+    background-color: transparent;
+    border-radius:20px;
+    border:1px solid grey;
 }
 .post_top img{
     margin-left:-11px;
@@ -313,7 +318,8 @@
     height:35vh;
     background-color:black;
 }
-
+.post_option:hover{
+    color:skyblue;
 
 @media (max-width:1440px), (min-width:414px){
     .header_input{
